@@ -235,6 +235,7 @@ body {
   background:#e8852e radial-gradient(circle at right top, #e8852e, #ed552f);
   border-radius:5px;
   padding: 10px;
+  box-shadow: 5px 5px 0 0 #aaa;
 }
 .login-heading{
   font-size: 1.5rem;
@@ -293,3 +294,17 @@ body {
   color:#ed552f;
   margin: 0;
 }
+/* 유효성 검사 배너 */
+.validation {
+  margin-top: 25px;
+}
+.vaildation-list a {
+ background: url("images/validation_icon.png") no-repeat 20px 50%,#bbb linear-gradient(180deg, #bbb, #eee);
+ border-radius: 30px;
+ border:1px solid #aaa;
+ padding: 8px 15px 8px 45px;
+ display: block;
+ margin: 10px 0;
+}
+.vaildation-list a:hover,
+.vaildation-list a:focus { color:rgb(255,0,0);}
